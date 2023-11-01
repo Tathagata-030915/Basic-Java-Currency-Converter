@@ -6,4 +6,5 @@ There are text files for each pair of currency conversions; the currencies taken
 3. Euro
 4. GBP
 5. JPY
+
 The code is originally written in IntelliJ IDEA code editor.
