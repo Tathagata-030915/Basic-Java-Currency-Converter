@@ -343,32 +343,32 @@ public class Main {
             // Read the conversion rates from files
 
             //INR conversions both ways
-            double inr_usd_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/inr_usd_conversion_rate.txt");
-            double usd_inr_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/usd_inr_conversion_rate.txt");
-            double inr_gbp_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/inr_gbp_conversion_rate.txt");
-            double gbp_inr_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/gbp_inr_conversion_rate.txt");
-            double inr_euro_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/inr_euro_conversion_rate.txt");
-            double euro_inr_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/euro_inr_conversion_rate.txt");
-            double inr_jpy_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/inr_jpy_conversion_rate.txt");
-            double jpy_inr_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/jpy_inr_conversion_rate.txt");
+            double inr_usd_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/inr_usd_conversion_rate.txt");
+            double usd_inr_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/usd_inr_conversion_rate.txt");
+            double inr_gbp_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/inr_gbp_conversion_rate.txt");
+            double gbp_inr_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/gbp_inr_conversion_rate.txt");
+            double inr_euro_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/inr_euro_conversion_rate.txt");
+            double euro_inr_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/euro_inr_conversion_rate.txt");
+            double inr_jpy_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/inr_jpy_conversion_rate.txt");
+            double jpy_inr_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/jpy_inr_conversion_rate.txt");
 
             //USD conversions both ways
-            double usd_gbp_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/usd_gbp_conversion_rate.txt");
-            double gbp_usd_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/gbp_usd_conversion_rate.txt");
-            double usd_euro_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/usd_euro_conversion_rate.txt");
-            double euro_usd_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/euro_usd_conversion_rate.txt");
-            double usd_jpy_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/usd_jpy_conversion_rate.txt");
-            double jpy_usd_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/jpy_usd_conversion_rate.txt");
+            double usd_gbp_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/usd_gbp_conversion_rate.txt");
+            double gbp_usd_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/gbp_usd_conversion_rate.txt");
+            double usd_euro_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/usd_euro_conversion_rate.txt");
+            double euro_usd_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/euro_usd_conversion_rate.txt");
+            double usd_jpy_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/usd_jpy_conversion_rate.txt");
+            double jpy_usd_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/jpy_usd_conversion_rate.txt");
 
             //EURO conversions both ways
-            double euro_gbp_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/euro_gbp_conversion_rate.txt");
-            double gbp_euro_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/gbp_euro_conversion_rate.txt");
-            double euro_jpy_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/euro_jpy_conversion_rate.txt");
-            double jpy_euro_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/jpy_euro_conversion_rate.txt");
+            double euro_gbp_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/euro_gbp_conversion_rate.txt");
+            double gbp_euro_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/gbp_euro_conversion_rate.txt");
+            double euro_jpy_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/euro_jpy_conversion_rate.txt");
+            double jpy_euro_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/jpy_euro_conversion_rate.txt");
 
             //GBP conversions both ways
-            double gbp_jpy_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/gbp_jpy_conversion_rate.txt");
-            double jpy_gbp_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_converter_2/src/jpy_gbp_conversion_rate.txt");
+            double gbp_jpy_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/gbp_jpy_conversion_rate.txt");
+            double jpy_gbp_rate = readConversionRate("C:/Users/TATHAGATA GHOSH/Desktop/Currency_Converter/src/jpy_gbp_conversion_rate.txt");
 
             CurrencyConverter inr_usd_Converter = new INR_USD_CurrencyConverter(inr_usd_rate);
             CurrencyConverter usd_inr_Converter = new USD_INR_CurrencyConverter(usd_inr_rate);
